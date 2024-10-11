@@ -1,0 +1,36 @@
+#x{
+    position: absolute;
+    left: 299px;
+    top: 24px;
+    color: #eeeded;
+    font-size: 30px;
+    cursor: pointer;
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -120vw;
+    transition: left 0.5s ease;
+}
+#separator-sidebar{
+    position: absolute;
+    /* left: -360px; */
+    width: 18vw;
+    height: 100vh;
+}
+.bg.show{
+    left: 0;
+}
+.bg.hide{
+    left: -120vw;
+}
+/* .separator-sidebar.sho{
+    left: 0;
+}
+.separator-sidebar.hid{
+    left: -360px;
+} */

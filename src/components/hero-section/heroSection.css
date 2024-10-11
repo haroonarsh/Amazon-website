@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(211, 211, 211, 0.521);
+}
+
+.bg-container{
+    width: 98.5%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 248vh;
+}
+
+
+.hero-change{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 38px;
+    color: rgb(0, 0, 0);
+    z-index: 1.1;
+    padding: 6% 2%;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.1rem;
+    padding: 0 1.1rem;
+}
+.single-item{
+    display: grid;
+    align-items: start;
+    background-color: white;
+    padding: 20px;
+    gap: 8px;
+}
+
+.single-item h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.866);
+}
+
+.single-item-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    cursor: pointer;
+    gap: 1vw;
+}
+.single-2{
+    grid-template-columns: repeat(1, 1fr);
+}
+.single-2 p{
+    font-size: 16px;
+}
+.single-three{
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    object-fit: contain;
+}
+.single-item-images p{
+    font-size: 13px;
+    font-weight: 500;
+}
+.single-item-images img{
+    width: 100%;
+    height: 16vh;
+    object-fit: cover;
+}
+.single-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.single-item a{
+    font-size: 14px;
+    color: rgb(32, 88, 178);
+    width: fit-content;
+}
+.single-item a:hover{
+    color: rgb(178, 112, 32);
+}
+
+.single-image{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+              /* *********TOP***************** */
+.tops{
+    background-color: white;
+    margin: 20px 1.1rem;
+    padding: 18px 1.1rem;
+    overflow: hidden;
+    position: relative;
+}
+.tops h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.866);
+}
+
+.tops .top-all{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    transition: 0.5s;
+}
+
+.tops-change{
+    position: absolute;
+    top: 25%;
+    width: 98%;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 27px;
+    transition: 0.5s;
+}
+.tops:hover .tops-change{
+    display: flex;
+}
+
+.tops-change i{
+    background-color: rgba(245, 245, 245, 0.49);
+    color: rgba(44, 44, 44, 0.605);
+    padding: 50px 14px;
+    box-shadow: 2px 3px 4px -4px #00000087;
+    transition: 0.5s;
+}
+.tops-change i:hover{
+    background-color: rgba(245, 245, 245, 0.647);
+    color: rgb(44, 44, 44);
+}

@@ -1,0 +1,245 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.70rem;
+    color: white;
+    padding: 0 10px;
+    width: 100%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity)) /* #0f172a */;
+}
+
+.header .logo{
+    width: 128px;
+    cursor: pointer;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.header .logo:hover{
+    border: 1px solid white;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    width: 90px;
+    gap: 3px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.location:hover{
+    border: 1px solid white;
+}
+.location p{
+    font-size: 12px;
+    color: rgb(219, 219, 219);
+}
+.location p span{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inputs .items{
+    background-color: rgb(215, 215, 215);
+    color: rgb(55, 55, 55);
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 12px;
+    padding: 12px 12px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.inputs .items:hover{
+    background-color: rgb(198, 198, 198);
+}
+.inputs input{
+    width: 50vw;
+    padding: 9px 12px;
+    color: black;
+}
+.inputs .search{
+    background-color: rgb(246, 180, 57);
+    color: #1b1b1b;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.inputs .search:hover{
+    background-color: rgb(233, 160, 27);
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.language:hover{
+    border: 1px solid white;
+}
+
+.language .plage{
+    width: 24px;
+}
+
+.signs{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.signs:hover{
+    border: 1px solid white;
+}
+
+.signs .top-sign{
+    font-size: 12px;
+}
+.signs .down-sign{
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+}
+.signs .down-sign i{
+    color: rgb(195, 195, 195);
+    font-size: 12px;
+}
+
+.order-list{
+    display: grid;
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.order-list:hover{
+    border: 1px solid white;
+}
+.order{
+    font-size: 14px;
+    font-weight: 700
+}
+
+.cart{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 11px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.cart:hover{
+    border: 1px solid white;
+}
+.cart span i{
+    font-size: 26px;
+}
+
+
+                             /* *******Drop Down ******************/
+.dropdown{
+    position: absolute;
+    right: 28px;
+    background-color: white;
+    top: 54px;
+    color: black;
+    padding: 20px;
+    z-index: 1;
+    width: 30vw;
+    display: none;
+}
+.signs:hover .dropdown{
+    display: block;
+}   
+.sign-drop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.sign-drop button{
+    background-color: rgba(255, 166, 0, 0.808);
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    border: 1px solid orange;
+    padding: 5px 60px;
+    border-radius: 4px;
+}
+.sign-drop button:hover span{
+    border-bottom: 1px solid black ;
+}
+.sign-drop p {
+    font-size: 11px;
+}
+
+.sign-drop p span {
+    color: rgb(29, 140, 181);
+}
+.sign-drop p span:hover{
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+
+.more-drop{
+    display: flex;
+    align-items: start;
+}
+.drop-left{
+    border-top: 1px solid #00000011;
+    width: 50%;
+    padding-top: 15px;
+}
+.drop-left h2{
+    font-weight: 700;
+}
+.drop-left p{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.792);
+    width:fit-content;
+}
+.drop-left p:hover{
+    color: orange;
+    border-bottom: 1px solid orange;    
+}
+
+.drop-right{
+    width: 50%;
+    border-top: 1px solid #00000011;
+    border-left : 1px solid #00000011;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.drop-right h2{
+    font-weight: 700;
+}
+.drop-right p{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.792);
+}
+.drop-right p:hover{
+    color: orange;
+    width:fit-content;
+    border-bottom: 1px solid orange;
+}
+

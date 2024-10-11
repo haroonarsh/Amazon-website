@@ -1,0 +1,63 @@
+.header2{
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgb(35, 46, 62);
+    color: white;
+    font-family: "Poppins", system-ui;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 12px;
+    font-family: "Fredoka", system-ui;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header2 .nav p{
+    font-family: "Fredoka", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 16px;
+  
+}
+.header2 .nav p i{
+    font-size: 19px;
+}
+.header2 .nav{
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.header2 .nav:hover{
+    border: 1px solid white;
+}
+
+.nav-tools{
+    display: flex;
+    align-items: center;
+}
+.nav-tools p{
+    padding: 7px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.nav-tools p:hover{
+    border: 1px solid white;
+}
+
+.nav-right{
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.nav-right:hover{
+    border: 1px solid white;
+}
